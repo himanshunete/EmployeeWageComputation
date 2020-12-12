@@ -1,5 +1,6 @@
 #!/bin/bash/ -x
 
+
 Totalemp=100
 for((Empno=0;Empno<=$Totalemp;Empno++))
 do
