@@ -1,4 +1,5 @@
 #!/bin/bash -x
+
 WagePerHour=20
 echo $WagePerHour Rs
 FullDayHour=8
