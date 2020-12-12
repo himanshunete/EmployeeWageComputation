@@ -5,3 +5,6 @@ WagePerDay=160
 WagePerMonth=$(($WagePerDay*$WorkingDayPerMonth))
 echo $WagePerMonth
 
+
+
+
