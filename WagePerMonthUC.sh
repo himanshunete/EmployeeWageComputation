@@ -1,9 +1,9 @@
 #!/bin/bash -x
-WagePerHour=20
-TotalWagePerMonth=0
-for ((totalhours=1;totalhours<=100;totalhours++))
-do
-   TotalWagePerMonth=$(($TotalWagePerMonth + $WagePerHour))
-done
-echo $TotalWagePerMonth
+WorkingDayPerMonth=20
+echo $WorkingDayPerMonth Days per month
+WagePerDay=160
+WagePerMonth=$(($WagePerDay*$WorkingDayPerMonth))
+echo $WagePerMonth
+
+
 
